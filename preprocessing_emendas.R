@@ -105,7 +105,7 @@ for (i in 1:50){
 caput <- unlist(lapply(corpusEmendas, busca_termo_posicao, "§"))
 paragrafo <- unlist(lapply(corpusEmendas, busca_termo_posicao, "parágrafo"))
 artigo_abrv <- unlist(lapply(corpusEmendas, busca_termo_posicao, "art."))
-artigo_extn <- unlist(lapply(corpusEmendas, busca_termo_posicao, "artigo"))
+artigo_extn <- unlist(lapply(corpusEmendas, busca_termo_posicao, "artigo")) 
 
 ###################################
 
